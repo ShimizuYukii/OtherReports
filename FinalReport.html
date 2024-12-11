@@ -355,7 +355,8 @@ display: none;
 </div>
 
 
-<p><a href="https://www.openai.com">Click here for HTML version</a></p>
+<p><a href="https://github.com/ShimizuYukii/OtherReports/blob/main/FinalReport.html">Click
+here for HTML version</a></p>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>The dataset under analysis comprises standardized educational
@@ -992,6 +993,46 @@ also measure the performance differences between counties.</p>
 </div>
 <div id="conclusions" class="section level2">
 <h2>Conclusions</h2>
+<p>This analysis of WASL pass rates across schools in Washington during
+the 2005-2006 school year has provided several critical insights into
+the factors influencing student performance. Demographic characteristics
+emerged as significant predictors of pass rates, with schools having
+higher proportions of White students achieving better outcomes. This
+finding highlights potential inequities in educational resource
+allocation or test design biases. Additionally, larger class sizes
+negatively impacted pass rates, likely due to the challenges of
+providing individualized attention in crowded classrooms. Schools with a
+higher percentage of students eligible for free or reduced-price meals
+also exhibited lower pass rates, underscoring the socioeconomic
+challenges that many students face in accessing quality education.
+Subject and grade-level differences were evident, with Science being the
+most challenging subject and Writing the least, while tenth-grade
+students generally faced greater difficulty compared to fifth
+graders.</p>
+<p>The linear mixed-effects model (LME), incorporating school and county
+as random effects alongside significant fixed effects, was selected as
+the best-fit model for the data based on the Bayesian Information
+Criterion (BIC). The model identified total enrollment, racial
+composition, and socioeconomic indicators as strong predictors of pass
+rate variations, while teacher experience and qualifications showed
+limited impact. These findings were supported by hypothesis tests that
+confirmed the statistical significance of the demographic and structural
+variables. Residual analysis further highlighted specific schools that
+exceeded or fell short of expectations. These insights offer valuable
+benchmarks for evaluating school performance. This analysis provides a
+foundational understanding of the factors influencing WASL pass rates,
+offering valuable insights for policymakers and educators aiming to
+improve educational outcomes and address systemic inequities.</p>
+<p>Despite these insights, several limitations must be acknowledged. The
+dataset is aggregated at the school level, failing to capture individual
+student variability. Furthermore, our model doesn’t hold the assumptions
+strictly though generally acceptable due to the skewed pattern of the
+pass rate. And transforming it is challenging because if the
+transformations differ across sections, it would result in inconsistent
+effects of other variables on them, which conflicts with our
+assumptions. Future research could address these limitations by
+incorporating individual-level data, exploring better alternating
+models.</p>
 </div>
 <div id="replication-code" class="section level2">
 <h2>Replication Code</h2>
